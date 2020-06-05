@@ -1,0 +1,2 @@
+rootProject.name='KiemTraDe3'
+include ':app'

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:onClick="containerClick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/vang1"
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/textView"
+        android:layout_toRightOf="@id/textView"
+        android:background="#ff0" />
+
+    <TextView
+        android:id="@+id/xanh1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/textView"
+        android:layout_alignRight="@id/textView"
+        android:background="#48FF00" />
+
+    <TextView
+        android:id="@+id/do1"
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_toLeftOf="@id/textView"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/tim1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_alignLeft="@id/textView"
+        android:background="#f0f" />
+
+    <TextView
+        android:id="@+id/vang2"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/vang1"
+        android:layout_alignRight="@id/vang1"
+        android:background="#ff0" />
+
+    <TextView
+        android:id="@+id/vang3"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/vang2"
+        android:layout_alignRight="@id/vang2"
+        android:layout_marginRight="25dp"
+        android:background="#ff0" />
+
+    <TextView
+        android:id="@+id/do2"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/do1"
+        android:layout_alignLeft="@id/do1"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/do3"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/do2"
+        android:layout_alignLeft="@id/do2"
+        android:layout_marginLeft="25dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/tim2"
+        android:layout_width="30dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@id/tim1"
+        android:layout_toRightOf="@id/tim1"
+        android:background="#f0f" />
+
+    <TextView
+        android:id="@+id/tim3"
+        android:layout_width="30dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@id/tim2"
+        android:layout_marginBottom="25dp"
+        android:layout_toRightOf="@id/tim2"
+        android:background="#f0f" />
+
+    <TextView
+        android:id="@+id/xanh2"
+        android:layout_width="30dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@id/xanh1"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@id/xanh1"
+        android:background="#48FF00" />
+
+    <TextView
+        android:id="@+id/xanh3"
+        android:layout_width="30dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@id/xanh2"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@id/xanh2"
+        android:background="#48FF00" />
+</RelativeLayout>
